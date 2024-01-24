@@ -1,7 +1,7 @@
 ---
 title: "Stat 218 Final Project Writeup"
 author: "Terry Luongo"
-format: html
+format: pdf
 editor: visual
 embed-resources: TRUE
 ---
@@ -318,6 +318,4 @@ If I had more time, I would extend the project in two main ways:
 2.  Standardized interface - if you could call the algorithm in a format similar to the other stat learning algorithms we learned, eg. `mytree(y ~ x, data = test)` .
 3.  Improving efficiency - there are definitely a few optimizations that could be made in the `calculate_rmse` function. This is called thousands of times in constructing a single tree so improving how this function works would have large implications on performance.
 
-### Closing Comments
-
-Thank you Prof. Lyford for a great semester. Have a nice break!
+### 
